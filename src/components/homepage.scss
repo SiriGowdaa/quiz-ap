@@ -1,0 +1,36 @@
+$text: #E5E4E4;
+
+.home-container{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bg{
+  height: 350px;
+  width: 310px;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  mix-blend-mode: multiply;
+}
+
+h1{
+  color: $text;
+  text-align: center;
+}
+
+p{
+  color: $text;
+  text-align: center;
+  font-weight: 700;
+}
+
+.start-button{
+  background: #DC9324;
+  margin: auto;
+  border-radius: 4px;
+}
